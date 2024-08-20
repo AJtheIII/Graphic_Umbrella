@@ -1,0 +1,10 @@
+
+
+.nav-buttons ul{
+    list-style: none;
+    display:inline;
+}
+
+.nav-buttons li {
+    display: inline;
+}
