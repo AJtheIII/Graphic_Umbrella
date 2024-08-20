@@ -12,7 +12,7 @@
     <div class="container header">
         <div class="row header-row">
             <div class="col-2 logo-image">
-                <img class ="img-fluid" src="./media/GUlogo.png">
+                <img class ="img-fluid" src="./media/GUlogo.png"></div>
             <div class="col-4 company-name"><h6>GraphicUmbrella</h6><p> Premium Style Free Graphics</p></div>
             <div class="col-6 nav-buttons">
                 <ul><li>HOME</li>
@@ -27,7 +27,7 @@
     <!--<h3>Section 2: HERO image 'lovely captions'</h3>-->
     <div class="container hero-image">
         <div class="row hero">
-            <div class="col-12"><img class src="./media/GUHeroImage.png"></div>
+            <div class="hero-image"><img class src="./media/GUHeroImage.png"></div>
         </div>
     </div>
     <!--<h3> Section 3: 4 columns each with icon and label</h3>-->
@@ -59,26 +59,90 @@
         <div class="row portfolio-row">
             <div class="col-6 "><h5>RECENT FROM PORTFOLIO</h5></div>
             <div class="row portfolio-row2">
-            <div class="col-3"><img class src="media/Portfolio1.png"></div>
-            <div class="col-3"><h6>BUSINESS CARDS</h6><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatem. Iure, aut incidunt autem ipsa commodi ex consectetur placeat ullam.</p></div>
-            <div class="col-3"><img class src="media/Portfolio3.png"></div>
-            <div class="col-3"><h6>MOO MINICARDS</h6><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam temporibus tempora eaque esse sed molestiae delectus optio laborum ipsam odit.</p></div>
+               <div class="col-3"><img class src="media/Portfolio1.png"></div>
+               <div class="col-3"><h6>BUSINESS CARDS</h6><button>Video</button><button>Interview</button><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatem. Iure, aut incidunt autem ipsa commodi ex consectetur placeat ullam.</p></div>
+               <div class="col-3"><img class src="media/Portfolio3.png"></div>
+               <div class="col-3"><h6>MOO MINICARDS</h6><button>Video</button><button>Business</button><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam temporibus tempora eaque esse sed molestiae delectus optio laborum ipsam odit.</p></div>
             <div class="row portfolio-row3">
                 <div class="col-3"><img class src="media/Portfolio2.png"></div> 
-                <div class="col-3"><h6>SAY IT IN PRINT</h6><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere unde asperiores consequuntur animi, tempore harum iste expedita tenetur sit distinctio.</p></div> 
-            </div>
-
+                <div class="col-3"><h6>SAY IT IN PRINT</h6><button>Audio</button><button>Print</button><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere unde asperiores consequuntur animi, tempore harum iste expedita tenetur sit distinctio.</p></div> 
+                <div class="col-3"><img class src="media/Portfolio4.png"></div> 
+                <div class="col-3"><h6>GRAPHICS IN PRINT</h6><button>Video</button><button>Graphics</button><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor quis dolore sed perspiciatis explicabo tempora expedita minus quia numquam.</p></div>
+            </div> 
         </div>
     </div>
-    <h3> Section 5: Major Advertisers - 6 columns</h3>
-    <h3> Section 6: 4 columns
+    <!--<h3> Section 5: Major Advertisers - 6 columns</h3>-->
+    <div class="container advertisers-container">
+        <div class="row advertisers-tag">
+            <div class="col-6 adv-tag"> <h5>OUR MAJOR ADVERTISERS</h5></div>
+        </div>
+        <div class="row advertisers-logos">
+            <div class="col-2"><img class src="media/AdIcon1.png"></div>
+            <div class="col-2"><img class src="media/AdIcon2.png"></div>
+            <div class="col-2"><img class src="media/AdIcon3.png"></div>
+            <div class="col-2"><img class src="media/AdIcon4.png"></div>
+            <div class="col-2"><img class src="media/AdIcon5.png"></div>
+            <div class="col-2"><img class src="media/AdIcon6.png"></div>
+        </div>
+    </div>
+    <!--<h3> Section 6: 4 columns
         -"Little About Us/Follow US with social icons(6)"
         -Archives
         -Contact Us
         -Sign Up to Newsletter
            two form entry items
            (1) "Subscribe" button
-    </h3>
+    </h3>-->
+    <div class="container last-section">
+        <div class="row labu-section">
+            <div class="col-3 LABU-col"><h6>LITTLE ABOUT US</h6><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, est! Fugiat, quos! Repellat autem doloribus tenetur mollitia natus sunt eaque!</p></div>
+            <div class="col-3 archives-col"><h6>ARCHIVES</h6>
+                <ul>
+                    <li>March 2012</li>
+                    <li>February 2012</li>
+                    <li>January2012</li>
+                    <li>December 2011</li>
+                </ul>
+            </div>
+            <div class="col-3 contact-us"><h6>CONTACT US</h6>
+                <ul>
+                    <li><img class="img-fluid" src="media/Contact1.png"> <p>info@premiumcoding.com</p></li>
+                    <li><img src="media/Contact2.png"> 800 756 856</li>
+                    <li><img src="media/Contact3.png"> 386408007561</li>
+                </ul>
+            </div>
+            <div class="col-3 contact-us"><h6>SIGN TO NEWSLETTER</h6>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
 
+            </div>
+        <div class="row last-line">
+            <div class="col-3 follow-us" ><h6>FOLLOW US</h6><img src="media/socials.png"></div>
+            <div class="col-6 spacing"></div>
+            <div class="col-3 subscribe-button"><button>SUBSCRIBE</button></div>
+
+        </div>
+    </div>   
+    </div> 
+    <div class="container footer-container">
+        <div class="row footer-row">
+            <div class ="col-4 footer-nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Portfolio</li>
+                    <li>Sitemap</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col-5 footer-spacing"></div>
+            <div class="col-3 copy-right">© All Rights Reserved</div>
+        </div>
+    </div>  
 </body>
 </html>

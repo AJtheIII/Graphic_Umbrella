@@ -2,9 +2,46 @@
 
 .nav-buttons ul{
     list-style: none;
-    display:inline;
+
 }
 
 .nav-buttons li {
     display: inline;
 }
+
+.advertisers-container {
+    border-bottom: 20px;
+}
+
+
+.last-section {
+     border-top-width: 15px;
+}
+
+.archives-col ul{
+    list-style: none;
+}
+
+.contact-us ul {
+    list-style: none;
+}
+
+.subscribe-button button {
+    background-color:#8eb53e ;
+    color: #cee2e6;
+}
+
+.footer-container {
+    background-color:#202020 ;
+    color: #97b1b5;
+    border-top: 5px;
+}
+
+.footer-row ul{
+    list-style: none;
+}
+
+.footer-nav li{
+    display: inline;
+}
+
